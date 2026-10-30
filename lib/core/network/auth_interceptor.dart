@@ -1,4 +1,4 @@
-import 'package:dio/dio.dart';
+import 'package:flutter_assignment_upwork/core/packages.dart';
 import 'package:flutter_assignment_upwork/core/constants/api_constants.dart';
 
 class RefreshedSession {

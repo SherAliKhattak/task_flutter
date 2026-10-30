@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:flutter_assignment_upwork/core/packages.dart';
 import 'package:flutter_assignment_upwork/features/products/presentation/product_list_copy.dart';
 
 class SignOutDialog extends StatelessWidget {

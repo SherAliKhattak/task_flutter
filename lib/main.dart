@@ -1,4 +1,4 @@
-import 'package:flutter/widgets.dart';
+import 'package:flutter_assignment_upwork/core/packages.dart';
 import 'package:flutter_assignment_upwork/app/bootstrap.dart';
 import 'package:flutter_assignment_upwork/app/catalog_app.dart';
 

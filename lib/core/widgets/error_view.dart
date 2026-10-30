@@ -1,6 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_assignment_upwork/core/responsive/screen_space.dart';
-import 'package:get/get.dart';
+part of 'error.dart';
 
 class ErrorView extends StatelessWidget {
   const ErrorView({super.key, required this.message, required this.onRetry});

@@ -1,5 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
+import 'package:flutter_assignment_upwork/core/packages.dart';
 
 /// Underline field with the tracked label used on the staff entrance.
 class CustomTextField extends StatelessWidget {

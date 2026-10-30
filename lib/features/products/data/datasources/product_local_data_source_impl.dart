@@ -1,4 +1,4 @@
-import 'package:drift/drift.dart';
+import 'package:flutter_assignment_upwork/core/packages.dart';
 import 'package:flutter_assignment_upwork/features/products/data/datasources/product_local_data_source.dart';
 import 'package:flutter_assignment_upwork/features/products/data/local/catalog_database.dart';
 import 'package:flutter_assignment_upwork/features/products/domain/entities/product.dart';

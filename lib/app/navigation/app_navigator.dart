@@ -1,5 +1,5 @@
+import 'package:flutter_assignment_upwork/core/packages.dart';
 import 'package:flutter_assignment_upwork/app/routes/app_routes.dart';
-import 'package:get/get.dart';
 
 abstract class AppNavigator {
   void goToProducts();

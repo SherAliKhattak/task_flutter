@@ -1,4 +1,4 @@
-import 'package:dio/dio.dart';
+import 'package:flutter_assignment_upwork/core/packages.dart';
 import 'package:flutter_assignment_upwork/core/constants/api_constants.dart';
 import 'package:flutter_assignment_upwork/core/network/json_utils.dart';
 import 'package:flutter_assignment_upwork/features/products/data/datasources/product_remote_data_source.dart';

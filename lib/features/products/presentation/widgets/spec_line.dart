@@ -1,7 +1,6 @@
-import 'package:flutter/material.dart';
+import 'package:flutter_assignment_upwork/core/packages.dart';
 import 'package:flutter_assignment_upwork/core/responsive/screen_space.dart';
 import 'package:flutter_assignment_upwork/features/products/presentation/product_detail_styles.dart';
-import 'package:get/get.dart';
 
 /// One ticket row: a short label and its value.
 class SpecLine extends StatelessWidget {

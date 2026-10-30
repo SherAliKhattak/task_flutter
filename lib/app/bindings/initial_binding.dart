@@ -1,4 +1,4 @@
-import 'package:dio/dio.dart';
+import 'package:flutter_assignment_upwork/core/packages.dart';
 import 'package:flutter_assignment_upwork/app/navigation/app_messenger.dart';
 import 'package:flutter_assignment_upwork/app/navigation/app_navigator.dart';
 import 'package:flutter_assignment_upwork/app/routes/app_routes.dart';
@@ -21,7 +21,6 @@ import 'package:flutter_assignment_upwork/features/products/domain/repositories/
 import 'package:flutter_assignment_upwork/features/products/domain/usecases/clear_catalog.dart';
 import 'package:flutter_assignment_upwork/features/products/domain/usecases/get_product.dart';
 import 'package:flutter_assignment_upwork/features/products/domain/usecases/get_products.dart';
-import 'package:get/get.dart';
 
 class InitialBinding extends Bindings {
   @override

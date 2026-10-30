@@ -1,7 +1,5 @@
-import 'package:cached_network_image/cached_network_image.dart';
-import 'package:flutter/material.dart';
+import 'package:flutter_assignment_upwork/core/packages.dart';
 import 'package:flutter_assignment_upwork/core/widgets/shimmer.dart';
-import 'package:get/get.dart';
 
 class ProductImage extends StatelessWidget {
   const ProductImage({

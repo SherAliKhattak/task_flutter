@@ -1,5 +1,4 @@
-import 'package:flutter/widgets.dart';
-import 'package:get/get.dart';
+import 'package:flutter_assignment_upwork/core/packages.dart';
 
 /// Lengths from a 390×844 layout, scaled with [Get.width] and [Get.height].
 ///

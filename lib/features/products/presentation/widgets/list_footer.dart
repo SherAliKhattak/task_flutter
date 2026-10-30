@@ -1,10 +1,9 @@
-import 'package:flutter/material.dart';
+import 'package:flutter_assignment_upwork/core/packages.dart';
 import 'package:flutter_assignment_upwork/core/responsive/screen_space.dart';
 import 'package:flutter_assignment_upwork/core/widgets/shimmer.dart';
 import 'package:flutter_assignment_upwork/features/products/presentation/product_list_copy.dart';
 import 'package:flutter_assignment_upwork/features/products/presentation/product_list_styles.dart';
 import 'package:flutter_assignment_upwork/features/products/presentation/widgets/product_row_skeleton.dart';
-import 'package:get/get.dart';
 
 class ListFooter extends StatelessWidget {
   const ListFooter({

@@ -1,6 +1,6 @@
-import 'package:flutter/material.dart';
+import 'package:flutter_assignment_upwork/core/packages.dart';
 import 'package:flutter_assignment_upwork/core/responsive/screen_space.dart';
-import 'package:flutter_assignment_upwork/core/widgets/error_view.dart';
+import 'package:flutter_assignment_upwork/core/widgets/error.dart';
 import 'package:flutter_assignment_upwork/core/widgets/shimmer.dart';
 import 'package:flutter_assignment_upwork/features/products/domain/entities/product.dart';
 import 'package:flutter_assignment_upwork/features/products/presentation/controllers/product_detail_controller.dart';
@@ -11,7 +11,6 @@ import 'package:flutter_assignment_upwork/features/products/presentation/widgets
 import 'package:flutter_assignment_upwork/features/products/presentation/widgets/product_gallery.dart';
 import 'package:flutter_assignment_upwork/features/products/presentation/widgets/spec_line.dart';
 import 'package:flutter_assignment_upwork/features/products/presentation/widgets/ticket_line.dart';
-import 'package:get/get.dart';
 
 class ProductDetailPage extends GetView<ProductDetailController> {
   const ProductDetailPage({super.key});

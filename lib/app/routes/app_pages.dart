@@ -1,3 +1,4 @@
+import 'package:flutter_assignment_upwork/core/packages.dart';
 import 'package:flutter_assignment_upwork/app/routes/app_routes.dart';
 import 'package:flutter_assignment_upwork/features/auth/presentation/bindings/login_binding.dart';
 import 'package:flutter_assignment_upwork/features/auth/presentation/pages/login_page.dart';
@@ -5,7 +6,6 @@ import 'package:flutter_assignment_upwork/features/products/presentation/binding
 import 'package:flutter_assignment_upwork/features/products/presentation/bindings/product_list_binding.dart';
 import 'package:flutter_assignment_upwork/features/products/presentation/pages/product_detail_page.dart';
 import 'package:flutter_assignment_upwork/features/products/presentation/pages/product_list_page.dart';
-import 'package:get/get.dart';
 
 abstract final class AppPages {
   static final pages = <GetPage<dynamic>>[

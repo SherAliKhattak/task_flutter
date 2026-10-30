@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:flutter_assignment_upwork/core/packages.dart';
 
 /// A shared sweep for [ShimmerBlock] children. Blocks stay square, like the
 /// rest of the floor list, and one clock drives every block in the subtree.

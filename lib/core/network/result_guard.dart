@@ -1,4 +1,4 @@
-import 'package:dio/dio.dart';
+import 'package:flutter_assignment_upwork/core/packages.dart';
 import 'package:flutter_assignment_upwork/core/error/failure.dart';
 import 'package:flutter_assignment_upwork/core/error/result.dart';
 import 'package:flutter_assignment_upwork/core/network/dio_failure_mapper.dart';

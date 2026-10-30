@@ -1,3 +1,4 @@
+import 'package:flutter_assignment_upwork/core/packages.dart';
 import 'package:flutter_assignment_upwork/app/navigation/app_messenger.dart';
 import 'package:flutter_assignment_upwork/app/navigation/app_navigator.dart';
 import 'package:flutter_assignment_upwork/features/auth/domain/usecases/get_cached_user.dart';
@@ -5,7 +6,6 @@ import 'package:flutter_assignment_upwork/features/auth/domain/usecases/logout.d
 import 'package:flutter_assignment_upwork/features/products/domain/usecases/clear_catalog.dart';
 import 'package:flutter_assignment_upwork/features/products/domain/usecases/get_products.dart';
 import 'package:flutter_assignment_upwork/features/products/presentation/controllers/product_list_controller.dart';
-import 'package:get/get.dart';
 
 class ProductListBinding extends Bindings {
   @override

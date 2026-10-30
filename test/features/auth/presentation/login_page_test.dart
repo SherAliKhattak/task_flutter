@@ -1,9 +1,9 @@
+import 'package:flutter_assignment_upwork/core/packages.dart';
 import 'package:flutter_assignment_upwork/core/constants/demo_account.dart';
 import 'package:flutter_assignment_upwork/features/auth/domain/usecases/login.dart';
 import 'package:flutter_assignment_upwork/features/auth/presentation/controllers/login_controller.dart';
 import 'package:flutter_assignment_upwork/features/auth/presentation/pages/login_page.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:get/get.dart';
 
 import '../../../support/fakes.dart';
 

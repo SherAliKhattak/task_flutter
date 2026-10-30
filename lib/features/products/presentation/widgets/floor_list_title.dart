@@ -1,8 +1,7 @@
-import 'package:flutter/material.dart';
+import 'package:flutter_assignment_upwork/core/packages.dart';
 import 'package:flutter_assignment_upwork/features/products/presentation/controllers/product_list_controller.dart';
 import 'package:flutter_assignment_upwork/features/products/presentation/product_list_copy.dart';
 import 'package:flutter_assignment_upwork/features/products/presentation/product_list_styles.dart';
-import 'package:get/get.dart';
 
 class FloorListTitle extends GetView<ProductListController> {
   const FloorListTitle({super.key});

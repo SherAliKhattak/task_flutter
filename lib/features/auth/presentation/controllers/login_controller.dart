@@ -1,9 +1,8 @@
-import 'package:flutter/material.dart';
+import 'package:flutter_assignment_upwork/core/packages.dart';
 import 'package:flutter_assignment_upwork/app/navigation/app_navigator.dart';
 import 'package:flutter_assignment_upwork/core/constants/demo_account.dart';
 import 'package:flutter_assignment_upwork/core/error/result.dart';
 import 'package:flutter_assignment_upwork/features/auth/domain/usecases/login.dart';
-import 'package:get/get.dart';
 
 class LoginController extends GetxController {
   LoginController({required Login login, required AppNavigator navigator})

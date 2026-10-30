@@ -1,6 +1,5 @@
-import 'package:flutter/material.dart';
+import 'package:flutter_assignment_upwork/core/packages.dart';
 import 'package:flutter_assignment_upwork/core/responsive/screen_space.dart';
-import 'package:get/get.dart';
 
 abstract class AppMessenger {
   void showMessage(String message);

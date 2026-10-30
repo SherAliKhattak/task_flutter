@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:flutter_assignment_upwork/core/packages.dart';
 
 /// Text styles for the product list screen.
 abstract final class ProductListStyles {

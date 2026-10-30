@@ -1,6 +1,8 @@
 import 'package:drift/drift.dart';
 import 'package:drift_flutter/drift_flutter.dart';
 
+// Table and Column also exist in Flutter, so this file imports Drift directly.
+
 part 'catalog_database.g.dart';
 
 /// Saved floor list. Products are stored once; each fetched page records the
@@ -15,13 +17,7 @@ class CatalogDatabase extends _$CatalogDatabase {
   int get schemaVersion => 1;
 
   static QueryExecutor _open() {
-    return driftDatabase(
-      name: 'marlow_catalog',
-      web: DriftWebOptions(
-        sqlite3Wasm: Uri.parse('sqlite3.wasm'),
-        driftWorker: Uri.parse('drift_worker.js'),
-      ),
-    );
+    return driftDatabase(name: 'marlow_catalog');
   }
 }
 

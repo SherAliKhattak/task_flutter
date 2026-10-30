@@ -1,13 +1,12 @@
-import 'package:flutter/material.dart';
+import 'package:flutter_assignment_upwork/core/packages.dart';
 import 'package:flutter_assignment_upwork/core/responsive/screen_space.dart';
 import 'package:flutter_assignment_upwork/core/widgets/empty_view.dart';
-import 'package:flutter_assignment_upwork/core/widgets/error_view.dart';
+import 'package:flutter_assignment_upwork/core/widgets/error.dart';
 import 'package:flutter_assignment_upwork/features/products/presentation/controllers/product_list_controller.dart';
 import 'package:flutter_assignment_upwork/features/products/presentation/product_list_copy.dart';
 import 'package:flutter_assignment_upwork/features/products/presentation/widgets/floor_list_skeleton.dart';
 import 'package:flutter_assignment_upwork/features/products/presentation/widgets/floor_list_title.dart';
 import 'package:flutter_assignment_upwork/features/products/presentation/widgets/refreshable_message.dart';
-import 'package:get/get.dart';
 
 class ProductListPage extends GetView<ProductListController> {
   const ProductListPage({super.key});

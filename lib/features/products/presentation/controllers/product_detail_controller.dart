@@ -1,8 +1,7 @@
-import 'package:flutter/material.dart';
+import 'package:flutter_assignment_upwork/core/packages.dart';
 import 'package:flutter_assignment_upwork/core/error/result.dart';
 import 'package:flutter_assignment_upwork/features/products/domain/entities/product.dart';
 import 'package:flutter_assignment_upwork/features/products/domain/usecases/get_product.dart';
-import 'package:get/get.dart';
 
 class ProductDetailController extends GetxController {
   ProductDetailController({

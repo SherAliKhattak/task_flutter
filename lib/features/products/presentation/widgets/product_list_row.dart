@@ -1,8 +1,7 @@
-import 'package:flutter/material.dart';
+import 'package:flutter_assignment_upwork/core/packages.dart';
 import 'package:flutter_assignment_upwork/features/products/domain/entities/product.dart';
 import 'package:flutter_assignment_upwork/features/products/presentation/controllers/product_list_controller.dart';
 import 'package:flutter_assignment_upwork/features/products/presentation/widgets/product_card.dart';
-import 'package:get/get.dart';
 
 class ProductListRow extends GetView<ProductListController> {
   const ProductListRow({super.key, required this.index});

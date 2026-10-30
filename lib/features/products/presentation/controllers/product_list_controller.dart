@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:flutter/material.dart';
+import 'package:flutter_assignment_upwork/core/packages.dart';
 import 'package:flutter_assignment_upwork/app/navigation/app_messenger.dart';
 import 'package:flutter_assignment_upwork/app/navigation/app_navigator.dart';
 import 'package:flutter_assignment_upwork/core/error/result.dart';
@@ -15,7 +15,6 @@ import 'package:flutter_assignment_upwork/features/products/presentation/product
 import 'package:flutter_assignment_upwork/features/products/presentation/widgets/list_footer.dart';
 import 'package:flutter_assignment_upwork/features/products/presentation/widgets/product_list_row.dart';
 import 'package:flutter_assignment_upwork/features/products/presentation/widgets/sign_out_dialog.dart';
-import 'package:get/get.dart';
 
 class ProductListController extends GetxController {
   ProductListController({

@@ -1,8 +1,7 @@
-import 'package:flutter/material.dart';
+import 'package:flutter_assignment_upwork/core/packages.dart';
 import 'package:flutter_assignment_upwork/core/responsive/screen_space.dart';
 import 'package:flutter_assignment_upwork/features/products/presentation/controllers/product_detail_controller.dart';
 import 'package:flutter_assignment_upwork/features/products/presentation/widgets/product_image.dart';
-import 'package:get/get.dart';
 
 class ProductGallery extends GetView<ProductDetailController> {
   const ProductGallery({super.key, required this.images});

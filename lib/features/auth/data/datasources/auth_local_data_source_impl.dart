@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:flutter_secure_storage/flutter_secure_storage.dart';
+import 'package:flutter_assignment_upwork/core/packages.dart';
 import 'package:flutter_assignment_upwork/features/auth/data/datasources/auth_local_data_source.dart';
 import 'package:flutter_assignment_upwork/features/auth/data/models/user_model.dart';
 
